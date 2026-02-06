@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refund & Return Policy - ReVIVE9 Handcrafted Jewelry</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #baa656;
+            color: #2c2c2c;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 2rem 5%;
+            text-align: center;
+            background-color: rgba(245, 243, 235, 0.95);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 300;
+            letter-spacing: 4px;
+            color: #baa656;
+            margin-bottom: 0.5rem;
+        }
+
+        .logo img {
+            height: 100px;
+            width: auto;
+            max-width: 100%;
+            display: inline-block;
+            object-fit: contain;
+        }
+
+        .tagline {
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            color: #6b6b6b;
+            font-style: italic;
+        }
+
+        nav {
+            margin-top: 1.5rem;
+        }
+
+        nav a {
+            margin: 0 1.5rem;
+            text-decoration: none;
+            color: #2c2c2c;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #baa656;
+        }
+
+        .policy-section {
+            padding: 4rem 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 300;
+            color: #f5f3eb;
+            margin-bottom: 3rem;
+            letter-spacing: 3px;
+        }
+
+        .policy-container {
+            background-color: #f5f3eb;
+            border-radius: 12px;
+            padding: 3rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        .highlight-box {
+            background-color: #baa656;
+            color: #f5f3eb;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 3rem;
+        }
+
+        .highlight-box h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: 400;
+            letter-spacing: 2px;
+        }
+
+        .highlight-box p {
+            color: #f5f3eb;
+            margin-bottom: 0.5rem;
+            font-size: 1.05rem;
+        }
+
+        .highlight-box strong {
+            display: inline-block;
+            margin-right: 0.5rem;
+        }
+
+        .highlight-box a {
+            color: #f5f3eb;
+            text-decoration: underline;
+        }
+
+        .highlight-box a:hover {
+            color: #2c2c2c;
+        }
+
+        .policy-content h4 {
+            font-size: 1.5rem;
+            color: #baa656;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        .policy-content h4:first-of-type {
+            margin-top: 0;
+        }
+
+        .policy-content p {
+            font-size: 1.05rem;
+            color: #2c2c2c;
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        .policy-content ul {
+            margin-left: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .policy-content li {
+            font-size: 1.05rem;
+            color: #2c2c2c;
+            margin-bottom: 0.5rem;
+            line-height: 1.8;
+        }
+
+        .policy-content a {
+            color: #baa656;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .policy-content a:hover {
+            color: #a39148;
+            text-decoration: underline;
+        }
+
+        .contact-box {
+            background-color: #f5f3eb;
+            border: 2px solid #baa656;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-top: 3rem;
+        }
+
+        .contact-box h4 {
+            font-size: 1.5rem;
+            color: #baa656;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .contact-box p {
+            font-size: 1.05rem;
+            color: #2c2c2c;
+            line-height: 1.8;
+        }
+
+        footer {
+            background-color: #f5f3eb;
+            padding: 2rem 5%;
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        footer p {
+            color: #6b6b6b;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .logo img {
+                height: 50px;
+            }
+
+            nav a {
+                display: block;
+                margin: 0.5rem 0;
+            }
+
+            .policy-container {
+                padding: 2rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .highlight-box {
+                padding: 1.5rem;
+            }
+
+            .policy-content h4 {
+                font-size: 1.3rem;
+            }
+
+            .policy-content p,
+            .policy-content li {
+                font-size: 1rem;
+            }
+        }
+
+        .cart {
+            position: absolute;
+            top: 1.6rem;
+            right: 5%;
+            font-size: 0.95rem;
+            color: #2c2c2c;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        #cart-count {
+            background: #baa656;
+            color: #f5f3eb;
+            padding: 0.25rem 0.6rem;
+            border-radius: 20px;
+            font-weight: 600;
+            min-width: 28px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Revive39-logo.png" alt="ReVIVE9" width="180">
+        </div>
+        
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="shop.html">SHOP</a>
+            <a href="NW_Arrivals.html">NEW ARRIVALS</a>
+            <a href="about2.html">MY STORY</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="policy.html">POLICY</a>
+        </nav>
+
+        <a href="cart.html" class="cart" aria-live="polite" aria-atomic="true">
+        CART <span id="cart-count">0</span>
+        </a>
+    </header>
+
+    <section class="policy-section">
+        <h2 class="section-title">REFUND & RETURN POLICY</h2>
+        
+        <div class="policy-container">
+            <div class="highlight-box">
+                <h3>Quick Reference</h3>
+                <p><strong>Contact:</strong> <a href="mailto:ShopReVIVE9@gmail.com">ShopReVIVE9@gmail.com</a></p>
+                <p><strong>Returns Accepted Within:</strong> Five (5) days of delivery</p>
+                <p><strong>Restocking Fee:</strong> 10%</p>
+                <p><strong>Return Shipping:</strong> Buyer pays (except damaged/incorrect items)</p>
+            </div>
+
+            <div class="policy-content">
+                <h4>Returns</h4>
+                <p>If for any reason you are not happy with your purchase, you must contact us within five (5) days of receiving your order to initiate a return.</p>
+                <p>After the 5-day return window, no returns or exchanges will be accepted.</p>
+                <p>A 10% restocking fee will be applied to all eligible returns, and the remaining balance will be issued as store credit only.</p>
+                <p>Returned items must be unworn, unaltered, and include all original tags and packaging. Items that do not meet these criteria will be denied and returned to the sender.</p>
+                <p>You will be notified once your return has been received and processed.</p>
+
+                <h4>Non-Returnable Items</h4>
+                <p>The following items cannot be returned:</p>
+                <ul>
+                    <li>Clearance / Sale / Discounted items</li>
+                    <li>Personalized items</li>
+                </ul>
+
+                <h4>Damaged or Incorrect Items</h4>
+                <p>If your order arrives damaged or incorrect, you must contact us within three (3) days of delivery and provide clear photos of the issue.</p>
+                <p>For approved damage or incorrect-item claims, ReVIVE9 will provide a pre-paid return shipping label.</p>
+                <p>All items must be returned in original condition (unworn, unaltered) with packaging and tags intact.</p>
+
+                <h4>Item(s) Missing from Order</h4>
+                  <p><strong>Contact:</strong> <a href="mailto:ShopReVIVE9@gmail.com">ShopReVIVE9@gmail.com</a></p>
+                <p>Include:</p>
+                <ul>
+                    <li>A copy of your original invoice</li>
+                    <li>A photo of what you received</li>
+                </ul>
+                <p>For incorrect items, ReVIVE9 will provide a pre-paid label after verification.</p>
+
+                <div class="contact-box">
+                    <h4>Contact Information</h4>
+                    <p>
+                        ReVIVE9 By TJ Dezigns<br>
+                        Post Office Box<br>
+                        Columbia, South Carolina 23224<br>
+                        United States
+                    </p>
+                    <p>Email: <a href="mailto:ShopReVIVE9@gmail.com">shopReVIVE9@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 ReVIVE9. All rights reserved.</p>
+    </footer>
+</body>
+</html>
